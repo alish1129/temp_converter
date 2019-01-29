@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+	<title>Temperature Converter</title>
+	<link  rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="heading">
+		<img class="logo" src="logo.svg">
+	</div>
+	<h1 class="heading">Temperature Converter</h1>
+	<form >
+	    <input id="userInput" type="text" placeholder="Enter up to 10 numbers seperated by space"><br>
+	    <div id="buttons">
+            <button id="button" type="button">Convert</button>
+            <button id="reset_button" type="button" onclick="clearInput()" value="Clear">Clear</button>
+        </div>
+	</form>
+
+    <div id="result">
+		<label>Your result will be shown here.</label>
+		<ul id="list"></ul>
+    </div>
+	<script src="main.js"></script>
+</body>
+</html>

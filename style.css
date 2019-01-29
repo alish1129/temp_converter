@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Staatliches');
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+
+body{
+    margin: 0;
+}
+
+img.logo{
+    width: 90px;
+    height: 90px;
+    display: block;
+    margin: 50px auto 0 auto;
+}
+
+form{
+    height: 10vh;
+    text-align: center;
+    align-content: center;
+    margin-bottom: 100px;
+}
+
+input[type=text]{
+    display: inline-block;
+    min-width: 40%;
+    height: 25px;
+    font-size: 16px;
+    border: 2px solid rgba(1,186,239,0.7);
+    border-radius: 25px;
+    text-align: center;
+}
+
+::-webkit-input-placeholder{
+    padding: 5px;
+    letter-spacing: 1px;
+}
+#buttons{
+    display: block;
+    text-align: center;
+    margin: 50px auto;
+}
+
+#button{
+    background: rgb(1,186,239);
+    color: white;
+    height: 35px;
+    width: 100px;
+    border-radius: 25px;
+    font-size: 16px;
+}
+
+#reset_button{
+    background: rgb(239, 13, 50);
+    color: white;
+    height: 35px;
+    width: 100px;
+    border-radius: 25px;
+    font-size: 16px;
+}
+
+h1.heading{
+    text-align: center;
+    display: block;
+    margin: 20px auto 50px auto;
+    letter-spacing: 2px;
+    font-size: 40px;
+    font-weight: 100;
+    font-family: Pacifico, sans-serif;
+}
+
+div#result{
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    padding: 15px;
+    width: 400px;
+    background-color: rgba(207,235,223,0.6);
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-family: Slabo, sans-serif;
+    border: 2px solid rgba(155,196,203,0.6);
+}
+
+ul#list{
+    display: block;
+}
+
+li#li{
+    margin: 10px;
+}
+
+@media only screen and (max-width: 500px){
+
+    input[type=text]{
+        width: 90%;
+    }
+
+    h1.heading{
+        font-size: 30px;
+        margin: 50px 0;
+    }
+}
